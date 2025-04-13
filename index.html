@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Experience - The Ultimate Cricket Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+</head>
+<body>
+    <div class="stadium-background"></div>
+    <div class="crowd-effect"></div>
+    
+    <nav class="navbar">
+        <div class="logo">CricketX</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#matches">Matches</a>
+            <a href="#players">Players</a>
+            <a href="#highlights">Highlights</a>
+            <a href="#join" class="cta-nav">Join Now</a>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-text">Experience the Thrill of Cricket</h1>
+            <p class="animate-text">Join the ultimate cricket community and never miss a moment</p>
+            <button class="cta-button">
+                <span class="button-text">Join the Game</span>
+                <span class="button-glow"></span>
+            </button>
+        </div>
+        <div id="cricket-animation" class="cricket-3d"></div>
+    </section>
+
+    <section id="matches" class="upcoming-matches">
+        <h2>Upcoming Matches</h2>
+        <div class="matches-container">
+            <div class="match-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="team-logos">
+                            <img src="6ce13-16718973090985-1920.webp" alt="Team A" class="team-logo">
+                            <span class="vs">VS</span>
+                            <img src="maxresdefault.jpg" alt="Team B" class="team-logo">
+                        </div>
+                        <div class="match-details">
+                            <h3>Team A vs Team B</h3>
+                            <p class="date">March 15, 2025</p>
+                            <p class="venue">Eden Gardens, Kolkata</p>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <button class="book-tickets">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more match cards as needed -->
+        </div>
+    </section>
+
+    <section id="players" class="featured-players">
+        <h2>Featured Players</h2>
+        <div class="players-scroll">
+            <div class="player-card">
+                <div class="player-image">
+                    <img src="14kohli.webp" alt="Player 1">
+                    <div class="player-glow"></div>
+                </div>
+                <div class="player-info">
+                    <h3>Player Name</h3>
+                    <p>King Kohli</p>
+                </div>
+            </div>
+            <!-- Add more player cards as needed -->
+        </div>
+    </section>
+
+    <section id="highlights" class="live-highlights">
+        <h2>Live Highlights</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <div class="highlight-thumbnail">
+                    <img src="Crickets-elite-battle-for-glory-and-10-million-at-ICC-World-Cup-2023.jpg" alt="Highlight 1">
+                    <div class="play-button"></div>
+                </div>
+                <h3>Match Highlights</h3>
+                <p>Watch the best moments from the latest match</p>
+            </div>
+            <!-- Add more highlight cards as needed -->
+        </div>
+    </section>
+
+    <section id="join" class="join-section">
+        <div class="join-content">
+            <h2>Join Our Cricket Community</h2>
+            <p>Be part of the most exciting cricket platform</p>
+            <button class="join-button">
+                <span class="button-text">Sign Up Now</span>
+                <span class="button-glow"></span>
+            </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">YT</a>
+            </div>
+            <p>&copy; 2024 CricketX. All rights reserved.</p>
+        </div>
+        <button class="scroll-top">
+            <span class="arrow-up"></span>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
